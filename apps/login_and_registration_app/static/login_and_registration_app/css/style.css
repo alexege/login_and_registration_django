@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.registration-table {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.login-table {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.container {
+    width: 100%;
+}
+
+.registration-block {
+    min-height: 250px;
+    /* border: 2px solid brown; */
+    /* width: 49%; */
+    display:inline-block;
+}
+
+.login-block {
+    min-height: 250px;
+    /* border: 2px solid orange; */
+    /* width: 50%; */
+    display:inline-block;
+    vertical-align: top;
+}
+
+.logout {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.red {
+    color: red;
+}
